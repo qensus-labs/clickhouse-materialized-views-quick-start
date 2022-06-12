@@ -6,11 +6,11 @@ Formatting incoming data streams can be challenging. Sometimes you just can't ad
 
 This quick start guide helps you to get an understanding of
 
-- Concept of materialized views
+- Short introduction in materialized views
 - The benefits of using materialized views
 - Example  how to parse logs with ClickHouse
 
-## Concept of materialized views
+## Short introduction in materialized views
 
 ![overview clickhkouse](https://raw.github.com/qensus-labs/clickhouse-materialized-views-quick-start/main/clickhouse.jpg)
 
@@ -34,11 +34,11 @@ Of course I do encourage you to use your own data set.
 
 ## Start docker container
 ```
-docker run -d --name clickhouse-playground --ulimit nofile=262144:262144 -p 9000:9000 -p 9009 -p 8123 clickhouse/clickhouse-server
+docker run -d --name clickhouse-playground --ulimit nofile=262144:262144 -p 9000:9000 -p 9009 -p 8123 clickhouse/clickhouse-server:22.5.1
 ```
 ## Startup the clickhouse-client
 ```
-docker run -it --rm --link some-clickhouse-server:clickhouse-server clickhouse/clickhouse-client --host clickhouse-server
+docker run -it --rm --link clickhouse-playground:clickhouse-server clickhouse/clickhouse-client:22.5.1 --host clickhouse-server
 ```
 
 ## Create database
