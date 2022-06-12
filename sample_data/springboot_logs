@@ -1,0 +1,22 @@
+2022-05-17 22:23:39 [main] INFO  c.e.l.L.LoggerQensusDemoApp - Starting LoggerQensusDemoApp on MacBookPro with PID 12347 (/vscode/workspace/QensusDemo/target/classes started by Arnold in /vscode/workspace/QensusDemo/
+2022-05-17 22:23:39 [main] DEBUG c.e.l.L.LoggerQensusDemoApp - Running with Spring Boot v2.6.2.RELEASE, Spring v5.3.14.RELEASE
+2022-05-17 22:23:39 [main] INFO  c.e.l.L.LoggerQensusDemoApp - No active profile set, falling back to default profiles: default
+2022-05-17 22:23:42 [main] INFO  c.e.l.L.LoggerQensusDemoApp - Started LoggerQensusDemoApp in 1.783 seconds (JVM running for 3.901)
+2022-05-17 22:23:42 [main] INFO  c.e.l.L.LoggerQensusDemoApp - This is informational
+2022-05-17 22:23:42 [main] DEBUG c.e.l.L.LoggerQensusDemoApp - This is debugging
+2022-05-17 22:23:42 [main] ERROR c.e.l.L.LoggerQensusDemoApp - This is an error
+2022-05-17 22:25:09 [main] INFO  c.e.l.L.LoggerQensusDemoApp - Starting LoggerQensusDemoApp on MacBookPro with PID 7752 (/vscode/workspace/QensusDemo/target/classes started by Arnold in /vscode/workspace/QensusDemo/
+2022-05-17 22:25:09 [main] DEBUG c.e.l.L.LoggerQensusDemoApp - Running with Spring Boot v2.6.2.RELEASE, Spring v5.3.14.RELEASE
+2022-05-17 22:25:09 [main] INFO  c.e.l.L.LoggerQensusDemoApp - No active profile set, falling back to default profiles: default
+2022-05-17 22:25:12 [main] INFO  c.e.l.L.LoggerQensusDemoApp - Started LoggerQensusDemoApp in 1.341 seconds (JVM running for 3.415)
+2022-05-17 22:25:12 [main] INFO  c.e.l.L.LoggerQensusDemoApp - This is informational
+2022-05-17 22:25:12 [main] DEBUG c.e.l.L.LoggerQensusDemoApp - This is debugging
+2022-05-17 22:25:12 [main] ERROR c.e.l.L.LoggerQensusDemoApp - This is an error
+2022-05-17 22:37:38 [main] INFO  c.e.logger.LoggerQensusDemoApp - Starting LoggerQensusDemoApp on MacBookPro with PID 6578 (/vscode/workspace/QensusDemo/target/classes started by Arnold in /vscode/workspace/QensusDemo/
+2022-05-17 22:37:38 [main] DEBUG c.e.logger.LoggerQensusDemoApp - Running with Spring Boot v2.6.2.RELEASE, Spring v5.3.14.RELEASE
+2022-05-17 22:37:38 [main] INFO  c.e.logger.LoggerQensusDemoApp - No active profile set, falling back to default profiles: default
+2022-05-17 22:37:41 [main] INFO  c.e.logger.LoggerQensusDemoApp - Started LoggerQensusDemoApp in 1.866 seconds (JVM running for 3.843)
+2022-05-17 22:37:41 [main] INFO  c.e.logger.LoggerQensusDemoApp - This is informational
+2022-05-17 22:37:41 [main] DEBUG c.e.logger.LoggerQensusDemoApp - This is debugging
+2022-05-17 22:37:41 [main] ERROR c.e.logger.LoggerQensusDemoApp - This is an error
+2022-05-17 22:37:59 [http-nio-8080-exec-1] INFO  c.e.logger.rest.RestApiController - =================== inside API check ===================
